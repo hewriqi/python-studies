@@ -43,7 +43,7 @@ while True:
 
     # SE O USUARIO DIGITAR > 1 LETRA, CAI NO PRINT E VOLTA NO WHILE (CONTINUE) ATÉ ELE DIGITAR SOMENTE !!! UMA !!! LETRA.
     if len(tentativa_usuario) > 1:
-        print('Digite apenas UMA letra por favor')
+        print('Digite apenas UMA letra, por favor')
         continue
 
     # SE A LETRA DE TENTATIVA DO USUÁRIO ESTIVER NA PALAVRA SECRETA, A VARIAVEL DE TENTATIVAS CERTAS VAI RECEBER ESSAS LETRAS QUE O USUÁRIO ACERTOU.
@@ -60,11 +60,12 @@ while True:
 
     print('Palavra formada:', palavra_formada)
 
+    # SE A PALAVRA FORMADA FOR IGUAL A PALAVRA SECRETA, VOU EXIBIR QUE GANHOU, MOSTRAR A PALAVRA E O NÚMERO DE TENTATIVAS.
     if palavra_formada == palavra_secreta:
-        print("VOCÊ GANHOU!")
+        print("VOCÊ GANHOU! PARABÉNS MEU PARCEIRO")
         print('A palavra era', palavra_secreta)
         print(f"\nSeu numero de tentativas: [ {contador_tentativas}x ]")
         sleep(0.75)
         print('\nLIMPANDO...')
-        sleep(2)
+        sleep(2.4)
         os.system('cls')
