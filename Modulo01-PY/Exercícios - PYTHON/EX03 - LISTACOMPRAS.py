@@ -22,7 +22,12 @@ while True:
             print('Nada para apagar, tente novamente.')
             sleep(1.5)
         indice_apagar = int(input("Escolha o indice para apagar:  "))
-        del lista_de_compras[indice_apagar]
+        try:
+            del lista_de_compras[indice_apagar]
+        except ValueError:
+            print('Por favor digite um número inteiro.')
+        except IndexError:
+            print("Não existe esse índice na lista.")
     elif pergunta_usuario == 'l':
         os.system('cls')
         if len(lista_de_compras) == 0:
