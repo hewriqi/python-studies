@@ -71,6 +71,7 @@ resultado_final_2 = multiplicacao_por_10_2 % 11
 digito_2 = resultado_final_2 if resultado_final_2 <= 9 else 0
 
 print(f'\nO valor do 2º dígito é de: [ {digito_2} ]\n')
-
-
-print('FIM')
+cpf_certo = dez_digitos + str(digito_2)
+print('')
+print(cpf_certo)
+print('\nFIM')
