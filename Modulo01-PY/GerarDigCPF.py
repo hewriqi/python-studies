@@ -1,5 +1,5 @@
 """
-Cálculo do primeiro dígito do CPF:
+Cálculo dos dígitos do CPF:
 
 CPF: 697.079.500-48
 Colete a soma dos 9 primeiros dígitos do CPF
