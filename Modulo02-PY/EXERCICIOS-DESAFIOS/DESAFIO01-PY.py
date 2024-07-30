@@ -9,7 +9,7 @@ rectangular plot (width and length) and show the area of the plot.
 
 def area(largura, comprimento):
     calculo = largura * comprimento
-    print(f'A área de um terreno {largura} x {comprimento} = {calculo}m²')
+    print(f'A área de um terreno de {largura} x {comprimento} = {calculo}m²')
 
 
 print('CONTROLE DE TERRENOS')
