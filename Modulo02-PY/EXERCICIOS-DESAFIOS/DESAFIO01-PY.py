@@ -7,13 +7,16 @@ rectangular plot (width and length) and show the area of the plot.
 """
 
 
-def area(largura, comprimento):
-    calculo = largura * comprimento
-    print(f'A área de um terreno de {largura} x {comprimento} = {calculo}m²')
+def area(l, c):
+    calculo = l * c
+    print(f'A área de um terreno {l} x {c} = {calculo}m²')
 
 
-print('CONTROLE DE TERRENOS')
+print('PROGRAMA DE CONTROLE DE TERRENOS: ')
+
+print('\n\nControle de Terrenos')
 print('-' * 25)
 largura = float(input('LARGURA (m): '))
 comprimento = float(input('COMPRIMENTO (m): '))
 area(largura, comprimento)
+print('-' * 25)
