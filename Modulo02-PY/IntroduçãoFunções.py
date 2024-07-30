@@ -8,16 +8,6 @@ Por padrão, as funções Python retornam None (NADA).
 """
 
 
-def imprimir(a, b, c):
-    print('Várias1')
-    print('Várias2')
-    print('Várias3')
-    print('Várias4')
-
-
-imprimir(1, 2, 3)
-
-
 def linhaSep():
     print('-' * 30)
 
