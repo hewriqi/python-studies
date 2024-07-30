@@ -9,7 +9,9 @@ Por padrão, as funções Python retornam None (NADA).
 
 
 def imprimir(a, b, c):
+    soma = a + b + c
     print(a, b, c)
+    print(soma)
 
 
 imprimir(4, 5, 6)
