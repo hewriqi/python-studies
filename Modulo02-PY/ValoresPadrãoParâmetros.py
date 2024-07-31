@@ -16,4 +16,4 @@ def soma(x, y, z=None):
 
 soma(4, 5)
 soma(3, 5)
-soma(100, 200, 7)
+soma(100, 200)
