@@ -26,4 +26,4 @@ def escopo():
 
 print(x)
 escopo()
-print(x)  # --> VAI CONTINUAR SENDO '1', POIS NÃO CONSIGO ALTERAR COISAS DENTRO DO ESCOPO DA FUNÇÃO
+print(x)
