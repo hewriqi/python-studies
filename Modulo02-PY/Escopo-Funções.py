@@ -7,6 +7,9 @@ O escopo local é onde apenas nomes do mesmo local podem ser alcançados
 Não temos acesso a nomes de escopos internos nos escopos externos.
 A palavra global faz uma variável do escopo externo ser a mesma no escopo interno
 """
+print('ESCOPO EM FUNÇÕES')
+print('=-' * 20)
+
 x = 1
 
 
