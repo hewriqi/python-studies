@@ -33,11 +33,11 @@ def main():
 
         print("\nResultado final:")
         print(f"Atleta: {nome_atleta}")
-        print("Saltos: " +
-              " - ".join(f"{salto:.1f}" for salto in lista_saltos))
+        print("Saltos: " + " - ".join(f"{salto:.1f}" for salto in lista_saltos))
         print(f"Média dos saltos: {media:.1f} m\n")
 
         sleep(2)
+        
         pergunta_sair = input('Você deseja sair?: [s/n]')
         if pergunta_sair == 's':
             print('Saindo...')
