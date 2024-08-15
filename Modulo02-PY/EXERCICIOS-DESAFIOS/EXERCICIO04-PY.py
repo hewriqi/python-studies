@@ -20,7 +20,6 @@ perguntas = [
 
 # CÓDIGO:
 
-
 def traco():
     print('-' * 25)
 
@@ -52,16 +51,13 @@ while True:
     break
 
 if contador_acertos == 1:
-    print(f'\nVocê acertou {
-          contador_acertos} perguntas de 3 perguntas, precisa melhorar!')
+    print(f'\nVocê acertou {contador_acertos} perguntas de 3 perguntas, precisa melhorar!')
 
 elif contador_acertos == 2:
-    print(f'\nVocê acertou {
-          contador_acertos} perguntas de 3 perguntas, está ótimo!')
+    print(f'\nVocê acertou {contador_acertos} perguntas de 3 perguntas, está ótimo!')
 
 elif contador_acertos == 3:
-    print(f'\nVocê acertou {
-          contador_acertos} perguntas de 3 perguntas, PARABÉNS!!!')
+    print(f'\nVocê acertou {contador_acertos} perguntas de 3 perguntas, PARABÉNS!!!')
 
 sleep(1)
 print('\nFIM')
