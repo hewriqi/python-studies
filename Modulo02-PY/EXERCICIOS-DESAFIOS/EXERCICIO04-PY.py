@@ -36,14 +36,18 @@ while True:
         try:
             resposta_1 = int(input('Digite uma opção: '))
             if pergunta['Opções'][resposta_1] == pergunta['Resposta']:
-
-                print('\nRESPOSTA CORRETA!')
+                print('\nRESPOSTA CORRETA 👍')
                 contador_acertos += 1
+                print()
+                traco()
             else:
-                print('RESPOSTA ERRADA! \nA resposta correta era: ', end=' ')
+                print('RESPOSTA ERRADA❌ || \nA resposta correta era: ', end=' ')
                 print(pergunta['Resposta'])
+                print()
+                traco()
         except (ValueError, IndexError):
             print('Valor inválido, tenta novamente.')
+            traco()
             continue
     break
 
